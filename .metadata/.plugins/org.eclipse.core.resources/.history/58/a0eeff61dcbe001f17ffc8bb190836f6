@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class atividade_01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+
+		double A, L, vm;
+		A = sc.nextDouble();
+		L = sc.nextDouble();
+		vm = sc.nextDouble();
+		double area = A * L;
+		double preco = area * vm;
+
+		System.out.printf("AREA = %.2f%n", area);
+		System.out.printf("PRECO = %.2f%n", preco);
+		sc.close();
+	}
+
+}

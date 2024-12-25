@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class atividade_01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		System.out.println("Saiba qual o valor do terreno e qual o preço.");
+		double L, C, vm;
+		System.out.println("Qual a largura do terreno? ");
+		L = sc.nextDouble();
+		System.out.println("Qual o comprimento do terreno? ");
+		C = sc.nextDouble();
+		vm = sc.nextDouble();
+		double area = L * C;
+		double preco = area * vm;
+
+		System.out.printf("AREA = %.2f%n", area);
+		System.out.printf("PRECO = %.2f%n", preco);
+		sc.close();
+	}
+
+}

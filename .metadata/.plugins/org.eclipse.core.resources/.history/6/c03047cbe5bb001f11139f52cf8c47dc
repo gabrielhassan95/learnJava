@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exe_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int x;
+		double y;
+		x = sc.nextInt();
+		y = sc.nextDouble();
+		System.out.println("Você digitou: " + x);
+		System.out.println("Você digitou: " + y);
+		
+		
+		
+		sc.close();
+		
+
+	}
+
+}
