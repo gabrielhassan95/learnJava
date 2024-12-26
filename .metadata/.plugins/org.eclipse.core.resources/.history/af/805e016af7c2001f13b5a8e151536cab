@@ -38,6 +38,12 @@ public class Exe_10 {
 		
 		
 		sc.close();
+		
+	}
+
+	private static Object Locale() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
