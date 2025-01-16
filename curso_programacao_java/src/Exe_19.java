@@ -24,7 +24,6 @@ public class Exe_19 {
 			x = sc.nextDouble();
 			y = sc.nextDouble();
 		}
-
 		sc.close();
 
 	}

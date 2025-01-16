@@ -1,0 +1,15 @@
+
+public class Exe_20 {
+
+	public static void main(String[] args) {
+
+		System.out.print("\n Combustível "
+				+ "\n1.Álcool\n"
+				+ "2.Gasolina"
+				+ "\n3.Diesel\n"
+				+ "\n4.Fim\n"
+				+ "=====================\n"
+				);
+	}
+
+}

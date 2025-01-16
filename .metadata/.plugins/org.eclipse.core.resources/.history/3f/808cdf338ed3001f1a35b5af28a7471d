@@ -1,0 +1,16 @@
+
+public class Exe_20 {
+
+	public static void main(String[] args) {
+
+		System.out.print("Selecione o combustível: \n"
+				+ "\n1.Álcool"
+				+ "\n2.Gasolina"
+				+ "\n3.Diesel"
+				+ "\n4.Fim"
+				+ "\n====================="
+				);
+		
+	}
+
+}
